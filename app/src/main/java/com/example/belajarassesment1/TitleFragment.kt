@@ -16,6 +16,7 @@ import com.example.belajarassesment1.databinding.FragmentTitleBinding
  */
 class TitleFragment : Fragment() {
 private lateinit var binding: FragmentTitleBinding
+    private var test=0
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -26,7 +27,7 @@ private lateinit var binding: FragmentTitleBinding
 
         setHasOptionsMenu(true)
 
-
+        test=100
         return binding.root
 
     }
